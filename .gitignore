@@ -1,0 +1,9 @@
+*.iml
+out
+target
+.idea
+*.txt
+*.bin
+*.csv
+*.json
+shop.xml
