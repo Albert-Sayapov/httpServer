@@ -15,7 +15,7 @@ import java.util.Objects;
 public class Main {
     public static final String REMOTE_SERVICE_URL = "https://raw.githubusercontent.com/netology-code/jd-homeworks/master/http/task1/cats";
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         try (CloseableHttpClient httpClient = HttpClientBuilder.create()
                 .setDefaultRequestConfig(RequestConfig.custom()
                         .setConnectTimeout(5000)
